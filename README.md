@@ -14,7 +14,7 @@ CLI chatbot using Groq's LLM API with conversation memory and system prompts.
 
 ### 3. RAG PDF Q&A Streamlit App
 A web app that lets users upload a PDF and ask questions about it, powered by RAG (LangChain + FAISS + Groq).
-[View Project]
+[View Project] (https://github.com/nagib52/ai-engineer-journey/tree/main/stremlit-app-rag-ai-chatbot-with%3Dpdf-q-a)
 
 ### 4. AI Agent with Tool Calling
 An agent that dynamically decides when to use tools (calculator, weather, currency converter) to answer questions.
