@@ -20,5 +20,18 @@ A web app that lets users upload a PDF and ask questions about it, powered by RA
 An agent that dynamically decides when to use tools (calculator, weather, currency converter) to answer questions.
 [View Project] (https://github.com/nagib52/ai-engineer-journey/tree/main/day6-ai-agent)
 
+### 5. RAG + Tool-Calling Study Assistant
+Combines document search (RAG) and calculator tools in a single agent that decides which to use based on the question.
+[View Project] (https://github.com/nagib52/ai-engineer-journey/tree/main/day8-study-assistant)
+
+### 6. FastAPI Backend + Docker
+Wraps the RAG + tool-calling agent as a REST API using FastAPI, containerized with Docker.
+[View Project] (https://github.com/nagib52/ai-engineer-journey/tree/main/day9-fastapi-backend)
+
+### 7. Multi-Agent System (LangGraph)
+A researcher-writer agent pipeline built with LangGraph, where one agent's output feeds into the next.
+[View Project] (https://github.com/nagib52/ai-engineer-journey/tree/main/day13-multi-agent)
+
 ## Skills
-Python, Pandas, Numpy, Scikit-learn, LangChain, FAISS, Streamlit, Groq API, Git/GitHub
+Python, Pandas, Numpy, Scikit-learn, LangChain, LangGraph, FAISS, Streamlit, FastAPI, Docker, SQL, Groq API, Git/GitHub
+
