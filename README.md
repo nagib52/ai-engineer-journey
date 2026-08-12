@@ -1,6 +1,6 @@
 # AI Engineer Journey
 
-Hi, I'm Nagib Mahfuj — a CSE graduate transitioning into AI Engineering. This repo documents my hands-on projects.
+Hi, I'm Nagib Mahfuj — a CSE graduate building hands-on experience in AI Engineering, with a focus on LLMs, RAG systems, and AI agents. This repo documents my projects as I work toward an AI Engineer role.
 
 ## Projects
 
