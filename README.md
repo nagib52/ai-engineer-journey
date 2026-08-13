@@ -34,7 +34,7 @@ Wraps the RAG + tool-calling agent as a REST API using FastAPI, containerized wi
 
 ### 8. LoRA Fine-Tuning
 Hands-on parameter-efficient fine-tuning of a language model using LoRA, run on free Kaggle GPU.
-[View Project: https://github.com/nagib52/ai-engineer-journey/tree/main/day15-finetuning]
+[View Project: https://github.com/nagib52/ai-engineer-journey/blob/main/day15-finetuning-lora.ipynb]
 
 ### 9. LLM Evaluation Framework
 A lightweight evaluation framework for a RAG pipeline — correctness checks, hallucination detection, and response-time measurement.
