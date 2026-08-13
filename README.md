@@ -4,57 +4,61 @@ Hi, I'm Nagib Mahfuj — a CSE graduate building hands-on experience in AI Engin
 
 ## Projects
 
-AI Resume Screening & Candidate Ranking System
+1. Multi-Agent System (LangGraph)
 
-Scores and ranks resumes against a job description using RAG-style LLM reasoning — returns a match score, strengths, and gaps for each candidate. Stack: Python, Groq API, LangChain, PyPDF View Project
+A researcher-writer agent pipeline built with LangGraph, where one agent's output feeds into the next — a formal, production-style multi-agent workflow. View Project
 
-AI Customer Support Automation Agent
+2. AI Customer Support Automation Agent
 
-Automatically categorizes incoming support tickets, assigns priority, drafts a reply, and flags cases for escalation. Stack: Python, Groq API, Agent/Tool-calling View Project
+Automatically categorizes support tickets, assigns priority, drafts a reply, and flags cases for escalation. View Project
 
-AI Email Management & Response Automation
+3. AI Resume Screening & Candidate Ranking System
 
-Connects to a real Gmail inbox via OAuth, categorizes incoming emails, scores sentiment/urgency, and drafts replies. Stack: Python, Gmail API (OAuth), Groq API View Project
+Scores and ranks resumes against a job description using LLM reasoning, returning a match score, strengths, and gaps for each candidate. View Project
 
-AI Inventory & Purchase Recommendation Assistant
+4. AI Email Management & Response Automation
 
-Analyzes inventory data and recommends what to purchase based on stock levels and demand patterns. Stack: Python, Pandas, Groq API View Project
+Connects to a real Gmail inbox via OAuth, categorizes incoming emails, scores sentiment/urgency, and drafts replies. View Project
 
-Multi-Agent System (LangGraph)
+5. AI Inventory & Purchase Recommendation Assistant
 
-A researcher → writer agent pipeline where one agent's output feeds into the next, built as a proper LangGraph state graph. Stack: LangGraph, Groq API View Project
+Analyzes inventory data and recommends what to purchase based on stock levels and demand patterns. View Project
 
-RAG + Tool-Calling Study Assistant
+6. RAG + Tool-Calling Study Assistant
 
-An agent that combines document search (RAG) and a calculator tool, deciding on its own which to use based on the question. Stack: LangChain, FAISS, Groq API View Project
+Combines document search (RAG) and calculator tools in a single agent that decides which to use based on the question. View Project
 
-FastAPI Backend + Docker
+7. FastAPI Backend + Docker
 
-Wraps the RAG + tool-calling agent as a REST API and containerizes it with Docker for portable deployment. Stack: FastAPI, Docker, Groq API View Project
+Wraps the RAG + tool-calling agent as a REST API using FastAPI, containerized with Docker for portable deployment. View Project
 
-RAG PDF Q&A Web App
+8. LoRA Fine-Tuning
 
-A Streamlit app where users upload a PDF and ask questions about it, answered using retrieval-augmented generation. Stack: Streamlit, LangChain, FAISS View Project
+Hands-on parameter-efficient fine-tuning of a language model using LoRA, run on free Kaggle GPU. View Project
 
-AI Agent with Tool Calling
+9. LLM Evaluation Framework
 
-An agent that dynamically decides when to use tools (calculator, weather, currency converter) to answer a question. Stack: Groq API, function calling View Project
+A lightweight evaluation framework for a RAG pipeline — correctness checks, hallucination detection, and response-time measurement. View Project
 
-LLM Evaluation Framework
+10. AI Agent with Tool Calling
 
-A lightweight evaluation script for a RAG pipeline — keyword-based correctness checks, hallucination detection on out-of-scope questions, and response-time measurement. Stack: Python, Groq API View Project
+An agent that dynamically decides when to use tools (calculator, weather, currency converter) to answer questions. View Project
 
-LoRA Fine-Tuning
+11. RAG PDF Q&A Streamlit App
 
-Hands-on parameter-efficient fine-tuning of a language model using LoRA, run on free Kaggle GPU. Stack: Transformers, PEFT View Project
+A web app that lets users upload a PDF and ask questions about it, powered by RAG (LangChain + FAISS + Groq). View Project
 
-SQL Fundamentals
+12. SQL Fundamentals
 
-Core SQL operations — table creation, inserts, filtering, aggregation, and joins — using SQLite from Python. Stack: Python, sqlite3 View Project
+Table creation, inserts, filtering, aggregation, and joins using SQLite from Python. View Project
 
-Titanic ML Analysis
+13. LLM Chatbot (Groq API)
 
-Data cleaning, EDA, and classification models (Logistic Regression, Random Forest) on the classic Titanic dataset. Stack: Pandas, scikit-learn View Project
+CLI chatbot using Groq's LLM API with conversation memory and system prompts. View Project
+
+14. Titanic ML Analysis
+
+Data cleaning, EDA, and classification models (Logistic Regression, Random Forest) on the Titanic dataset. View Project
 
 Skills
 
