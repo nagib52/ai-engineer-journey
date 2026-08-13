@@ -26,7 +26,6 @@ with st.sidebar:
     uploaded_file = st.file_uploader("Choose a PDF", type="pdf")
 
     if uploaded_file is not None:
-        # সাময়িকভাবে ফাইল save করা (PyPDFLoader ফাইল path চায়)
         with open("temp.pdf", "wb") as f:
             f.write(uploaded_file.getbuffer())
 
@@ -77,11 +76,11 @@ if user_input:
 
     with st.chat_message("assistant"):
         with st.spinner("Thinking..."):
-            # যদি PDF আপলোড করা থাকে, RAG দিয়ে উত্তর দাও
+         
             if st.session_state.vectorstore is not None:
                 reply = rag_query(user_input)
             else:
-                # নাহলে normal chat
+              
                 response = client.chat.completions.create(
                     model="llama-3.3-70b-versatile",
                     messages=st.session_state.messages
