@@ -1,0 +1,9 @@
+ticket_id,customer_name,subject,message
+T001,Rahim Uddin,Payment not going through,"I tried to pay my invoice 3 times but the transaction keeps failing. I need this resolved today since my subscription is about to expire."
+T002,Fatima Khan,How to change my password,"I forgot how to reset my account password. Can you guide me?"
+T003,Karim Ahmed,App crashes on login,"Every time I open the app it crashes immediately after I enter my credentials. This started yesterday and I cannot access anything."
+T004,Nusrat Jahan,Feature request - dark mode,"Would love to see a dark mode option in the app settings. Not urgent, just a suggestion."
+T005,Shakil Rahman,Refund not received,"I cancelled my order 2 weeks ago and was promised a refund within 5-7 business days but I still haven't received it. This is very frustrating."
+T006,Anika Islam,Question about pricing plans,"Can you explain the difference between the Pro and Business plans?"
+T007,Tanvir Hossain,Account locked after multiple login attempts,"My account got locked and I need urgent access for a client presentation in 1 hour."
+T008,Sadia Akter,Invoice PDF not downloading,"The download button for my invoice doesn't work, just shows a spinning icon forever."
