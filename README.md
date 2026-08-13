@@ -18,7 +18,7 @@ Scores and ranks resumes against a job description using LLM reasoning, returnin
 
 ### 4. AI Email Management & Response Automation
 Connects to a real Gmail inbox via OAuth, categorizes incoming emails, scores sentiment/urgency, and drafts replies.
-[View Project: https://github.com/nagib52/ai-engineer-journey/tree/main/day17-email-agent]
+[View Project: https://github.com/nagib52/ai-engineer-journey/tree/main/day17-email-automation]
 
 ### 5. AI Inventory & Purchase Recommendation Assistant
 Analyzes inventory data and recommends what to purchase based on stock levels and demand patterns.
